@@ -1,10 +1,11 @@
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 1070px){
     
-    #nav_list, #navbar .btn_default {
+    #nav_list, 
+    #navbar .btn_default {
         display: none;
     }
     
-    #btn_mobile {
+    #mobile_btn {
         display: block;
         border: none;
         background-color: transparent;

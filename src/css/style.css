@@ -11,6 +11,10 @@ body {
     background: #fff9ea;
 }
 
+section {
+    padding: 28px 8%;
+}
+
 .btn_default {
     border: none;
     display: flex;
@@ -27,4 +31,10 @@ body {
 
 .btn_default:hover {
     background-color: #f8d477;
+}
+
+img {
+    transform: scale(0.7);
+    height: 29rem;
+    border-radius: 12rem;
 }
