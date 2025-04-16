@@ -83,3 +83,33 @@
     margin-top: 7px;
 }
 
+@media screen and ( max-width: 1070px ) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img {
+        display: none;
+    }
+
+    #cta,
+    #cta_buttons,
+    #cta .title {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+    .my-phone-number {
+        display: none;
+    }
+
+    .btn_default {
+        color: rgb(41, 181, 41);
+    }
+
+}
