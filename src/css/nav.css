@@ -1,7 +1,10 @@
 header {
     width: 100%;
-    padding: 28px 8%;
-    margin-top: 1px;
+    padding: 21px 8%;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    background-color: #fff9ea;
 }
 
 #navbar {
@@ -12,12 +15,12 @@ header {
 }
 
 #nav_logo {
-    font-size: 24px;
+    font-size: 25px;
     color: #e9a209;    
 }
 
 #nav_list {
-    font-size: 16px;
+    font-size: 19px;
     display: flex;
     list-style: none;
     gap: 48px;
