@@ -1,0 +1,27 @@
+footer {
+    background-color: aliceblue;
+}
+
+#footer_itens {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8% 24px 8%;
+    
+    
+}
+
+#copyright {
+
+    color: #2b2924;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thicknees: 2px;
+    text-decoration-color: #9f978461;
+    text-underline-offset: 10px;  
+}
+
+
