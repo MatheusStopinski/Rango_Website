@@ -24,4 +24,10 @@ footer {
     text-underline-offset: 10px;  
 }
 
+@media screen and (max-width: 600px) {
 
+    #footer_itens {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
